@@ -1,19 +1,16 @@
-animal = ""
+let animal1 = "cat";
+let animal2 = "dog";
+
 
 function myAnimal() {
-  return animal
+  return animal2
 }
 
 function yourAnimal() {
-  // How can we make sure that this function
-  // and the above function both pass?
-  // P.S.: You can't just hard-code 'cat' below
-  return animal
+  return animal1
 }
 
 function add2(n) {
+  let two = 2
   return n + two
-
-  // Feel free to move things around!
-  two = 2
 }
